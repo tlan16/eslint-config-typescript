@@ -1,6 +1,6 @@
 {
   "name": "@tlan16/eslint-config-typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "scripts": {
     "lint": "eslint '*.{js,ts}'"
@@ -16,15 +16,15 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-unused-imports": "^1.0.0"
+    "eslint-plugin-unused-imports": "^1.0.0",
+    "prettier": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
     "prettier": "^2.2.0"
   },
   "peerDependencies": {
-    "eslint": "^7.13.0",
-    "prettier": "^2.2.0"
+    "eslint": "^7.13.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
