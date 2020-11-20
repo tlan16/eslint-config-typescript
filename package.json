@@ -1,6 +1,6 @@
 {
   "name": "@tlan16/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "lint": "eslint '*.{js,ts}'"
