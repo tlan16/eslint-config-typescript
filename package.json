@@ -1,7 +1,10 @@
 {
-  "name": "eslint-config-typescript",
-  "version": "1.0.0",
+  "name": "@tlan16/eslint-config-typescript",
+  "version": "0.0.1",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint '*.{js,ts}'"
+  },
   "repository": "git@github.com:tlan16/eslint-config-typescript.git",
   "author": "Frank Lan <flan@msts.com>",
   "license": "MIT",
@@ -16,5 +19,8 @@
     "prettier": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
